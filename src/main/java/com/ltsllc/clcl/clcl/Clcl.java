@@ -20,11 +20,14 @@ package com.ltsllc.clcl.clcl;
 
 import com.ltsllc.clcl.password.PasswordCreator;
 import com.ltsllc.clcl.password.PasswordPractise;
-import com.ltsllc.commons.application.Option;
-import com.ltsllc.commons.application.TwoLevelApplication;
+// import com.ltsllc.commons.application.Option;
+// import com.ltsllc.commons.application.TwoLevelApplication;
 import com.ltsllc.commons.commadline.CommandLine;
 
-public class Clcl extends TwoLevelApplication {
+public class Clcl
+//        extends TwoLevelApplication
+{
+    /**
     public enum ClclObjects {
         Password (Objects.LAST.getIndex() + 1);
 
@@ -149,4 +152,5 @@ public class Clcl extends TwoLevelApplication {
     public CommandLine getCommandLine(String[] argv) {
         return null;
     }
+    **/
 }

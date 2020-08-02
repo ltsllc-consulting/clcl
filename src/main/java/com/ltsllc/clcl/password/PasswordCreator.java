@@ -18,15 +18,17 @@
 package com.ltsllc.clcl.password;
 
 import com.ltsllc.clcl.MessageDigest;
-import com.ltsllc.commons.application.Option;
+
 import com.ltsllc.commons.commadline.CommandLine;
+
 import com.ltsllc.commons.util.Utils;
 
 import java.io.IOException;
 import java.security.GeneralSecurityException;
 import java.util.Map;
 
-public class PasswordCreator extends Option {
+public class PasswordCreator
+{
 
     public void execute(Map<String, Object> map) {
 

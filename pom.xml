@@ -65,12 +65,13 @@
             <version>1.0.0.RELEASE</version>
         </dependency>
 
+        <!-- commons -->
         <dependency>
             <groupId>com.ltsllc</groupId>
             <artifactId>commons</artifactId>
             <version>1.0</version>
             <scope>system</scope>
-            <systemPath>C:/Users/commons/IdeaProjects/commons/target/commons-1.0-SNAPSHOT.jar</systemPath>
+            
         </dependency>
     </dependencies>
 

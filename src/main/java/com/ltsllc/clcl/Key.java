@@ -18,7 +18,6 @@
 package com.ltsllc.clcl;
 
 import com.ltsllc.commons.util.HexConverter;
-import com.ltsllc.commons.util.Utils;
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
 
 import javax.crypto.*;

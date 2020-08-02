@@ -18,14 +18,13 @@
 package com.ltsllc.clcl.password;
 
 import com.ltsllc.clcl.MessageDigest;
-import com.ltsllc.commons.application.Option;
 import com.ltsllc.commons.commadline.CommandLine;
 import com.ltsllc.commons.util.Utils;
 
 import java.util.Map;
 import java.util.Scanner;
 
-public class PasswordPractise extends Option {
+public class PasswordPractise  {
 
     public void execute(Map<String, Object> map) {
 

@@ -59,6 +59,7 @@ abstract public class Candidate {
     }
 
     public char generate () {
-        return getImprovedRandom().<Character>next(getCandidates());
+        int index = getImprovedRandom().<Character>nextIndex(getCandidates().length);
+        return getCandidates()[index];
     }
 }
